@@ -1,0 +1,68 @@
+html{
+	text-align: center;
+}
+ul {
+    margin: 50px;
+    list-style-type: none;
+    margin: 0;
+    padding-: 0;
+    overflow: hidden;
+    background-color: green;
+	font-family: 'Raleway', sans-serif;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+h2{
+    text-align: center;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+h1 {
+	font-family: 'Raleway', sans-serif;
+	color: green;
+    text-align: center;
+    font-size: 220%;
+    margin: auto;
+    padding-top: 60px;
+}
+body{
+	background-color: white; 
+}
+
+img{ padding-right: 20px;
+    padding-bottom: 20px;
+    transition: all 0.6s ease-in-out;
+}
+img:hover{
+	filter: grayscale(100%);
+	transform: translateY(-5%);
+}
+p{
+	padding-bottom: 50px;
+	font-family: 'Raleway', sans-serif;
+	color:  black;
+
+}
+h3{
+	color: brown;
+	opacity: 5000;
+	font-size: 30px;
+	font-family: 'Homemade Apple', cursive;
+}
+h3:hover{
+	color: #2215;
+}
